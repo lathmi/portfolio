@@ -1,4 +1,16 @@
 export const Home = () => {
 
-    return <div style={{ fontSize: '2rem', color: 'red' }}>Home</div>;
+    return <div className="min-height-screen">
+        {/* Theme toggle */}
+
+        {/* Background effects */}
+
+        {/* Navbar */}
+
+        {/* Main content */}
+
+
+        {/* Footer */}
+
+    </div>;
 };
