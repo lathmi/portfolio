@@ -9,7 +9,7 @@ const skillCategories = [
 
     {
         label:"Backend",
-        skills:["Node.js", "Express.js", "FastAPI", "RESTful APIs", "SQLAlchemy (ORM)" ]
+        skills:["Node.js", "Express.js", "FastAPI", "RESTful APIs" ]
     },
 
     {
