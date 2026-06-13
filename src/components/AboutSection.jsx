@@ -19,16 +19,12 @@ import { User } from "lucide-react";
                         </h3>
 
                         <p className="text-muted-foreground">
-                            Software Engineering Undergraduate with hands-on experience developing full-stack web applications,
-                            RESTful APIs and data driven systems using technologies including HTML, CSS, JavaScript,
-                            React.js, Next.js, FastAPI, PostgreSQL, SQL, NoSQL, Laravel, Python, Java...
+                          I enjoy building practical and user-focused applications to solve real-world problems.  
                         </p>
 
                         <p className="text-muted-foreground">
-                            I enjoy building practical and user-focused applications while continuously expanding my 
-                            technical skills. I'm interested in full-stack development, backend engineering, 
-                            Artificial Intelligence and Machine Learning focusing on creating solutions that 
-                            address real-world problems.
+                            For me, software engineering is about solving problems step by step and turning ideas into useful solutions. I enjoy building reliable backend systems, 
+                            working with DevOps tools to make deployment smoother and exploring how AI and ML can make applications smarter.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -39,8 +35,8 @@ import { User } from "lucide-react";
                             </a>
 
                             <a 
-                                href="/cv/Lathmi_Wanigasekara_CV.pdf" 
-                                download
+                                href="/cv/Lathmi_Wanigasekara_Public_CV.pdf" 
+                                download="Lathmi_Wanigasekara_Public_CV.pdf"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
 
                             Download CV
@@ -57,8 +53,8 @@ import { User } from "lucide-react";
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
-                                    <p className="text-muted-foreground"> blah blah blah bitch </p>
+                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <p className="text-muted-foreground">Designing clean and user-friendly digital interfaces.</p>
                                 </div>
                             </div>
                         </div>
@@ -69,8 +65,8 @@ import { User } from "lucide-react";
                                     <User className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
-                                    <p className="text-muted-foreground"> blah blah blah bitch </p>
+                                    <h4 className="font-semibold text-lg">Frontend & Backend Development</h4>
+                                    <p className="text-muted-foreground">Building responsive web and mobile apps with APIs and databases.</p>
                                 </div>
                             </div>
                         </div>
@@ -81,8 +77,8 @@ import { User } from "lucide-react";
                                     <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                    <p className="text-muted-foreground"> blah blah blah bitch </p>
+                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <p className="text-muted-foreground">Coordinating tasks, timelines and team collaboration.</p>
                                 </div>
                             </div>
                         </div>

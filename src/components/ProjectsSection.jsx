@@ -1,23 +1,24 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
     {
         id: 1,
         title: "AquaSense",
         description: "Smart water management, leak detection and control system with real-time IoT integration, water usage analytics, and JWT authentication.",
-        image: "/projects/aquasense.png",
+        image: "/projects/aquasense.jpeg",
         tags: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "JWT", "IoT"],
-        demoUrl: "#",
-        githubUrl: "#"
+        demoUrl: "https://aquasense-sdgp.web.app",
+        githubUrl: "https://github.com/lathmi/sdgp-se24-aquasense-mobile"
     },
     {
         id: 2,
         title: "To-Do List Web Application",
         description: "Full-stack task management web app with RESTful routing, full CRUD operations, and dynamic UI rendering.",
-        image: "/projects/todo.png",
+        image: "/projects/todo.jpg",
         tags: ["Node.js", "Express.js", "MongoDB"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/lathmi/to-do-list"
     },
     {
         id: 3,
@@ -26,17 +27,17 @@ const projects = [
         image: "/projects/acyclicitychecker.png",
         tags: ["Java", "Algorithms", "Graph Theory", "Data Structures"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/lathmi/acyclicity-checker"
     },
 
     {
         id: 4,
         title: "E-commerce Web Application",
-        description: "PHP-based e-commerce system with session-based cart management, product handling, and dynamic page updates.",
-        image: "/projects/ecommerce.png",
+        description: "PHP-based e-commerce system with session-based cart management, product handling and dynamic page updates.",
+        image: "/projects/ecommerce.jpg",
         tags: ["PHP", "Session Management", "Backend"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/lathmi/e-commerce"
     },
     {
         id: 5,
@@ -45,16 +46,16 @@ const projects = [
         image: "/projects/lifebelowwater.png",
         tags: ["HTML5", "CSS3", "JavaScript", "Agile"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/lathmi/life-below-water"
     },
     {
         id: 6,
-        title: "Traffic Management System",
-        description: "Developed a Python-based traffic management system that simulates traffic flow, validates vehicle movement rules, handles congestion scenarios, and visualizes system behavior through interactive UI components.",
-        image: "/projects/trafficmanagement.png",
-        tags: ["Python", "Tkinter", "UI Components"],
-        demoUrl: "#",
-        githubUrl: "#"
+        title: "Aquasense - Landing Page",
+        description: "Responsive landing page for AquaSense, a smart water management and leak detection system focused on real-time usage monitoring, leak detection, and sustainable water conservation.",
+        image: "/projects/landingpage.png",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://www.aquasense.lk/",
+        githubUrl: "https://github.com/lathmi/sdgp-se-24-aqua-sense--landing-page"
     }
 ];
 
@@ -70,7 +71,7 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent project 
+                    Here are some of my recent projects 
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
@@ -118,13 +119,21 @@ export const ProjectsSection = () => {
                                         target="_blank"
                                         className="text-foreground/80 hover:text-primary hover:text-primary transition-colors duration-300"
                                         >
-                                            <Github size={20}/>
+                                            <FaGithub size={20}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     ))}
+                </div>
+
+                <div className=" text-center mt-12">
+                    <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                    target="_blank"
+                    href="https://github.com/lathmi">
+                    Check My GitHub <ArrowRight size={16} />
+                    </a>
                 </div>
             </div>
         </section>

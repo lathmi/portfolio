@@ -1,3 +1,65 @@
+import {
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaJava,
+  FaPhp,
+  FaDocker,
+  FaGithub,
+  FaGitAlt,
+  FaAws,
+} from "react-icons/fa";
+
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+  SiFastapi,
+  SiPostgresql,
+  SiMysql,
+  SiMongodb,
+  SiFirebase,
+  SiSupabase,
+  SiFlutter,
+  SiJavascript,
+  SiLinux,
+  SiPostman,
+  SiSwagger,
+  SiJunit5,
+} from "react-icons/si";
+
+const skillIcons = {
+
+    "React.js": <FaReact />,
+    "TailwindCSS": <SiTailwindcss />,
+    "Next.js": <SiNextdotjs />,
+    "Flutter": <SiFlutter />,
+
+    "Node.js": <FaNodeJs />,
+    "Express.js": <SiExpress />,
+    "FastAPI": <SiFastapi />,
+
+    "PostgreSQL": <SiPostgresql />,
+    "MySQL": <SiMysql />,
+    "MongoDB": <SiMongodb />,
+    "Firebase": <SiFirebase />,
+    "Supabase": <SiSupabase />,
+
+    Javascript: <SiJavascript />,
+    Python: <FaPython />,
+    Java: <FaJava />,
+    PHP: <FaPhp />,
+
+    Docker: <FaDocker />,
+    Git: <FaGitAlt />,
+    GitHub: <FaGithub />,
+    "AWS (Fundamentals)": <FaAws />,
+
+    Linux: <SiLinux />,
+    Postman: <SiPostman />,
+    Swagger: <SiSwagger />,
+    JUnit: <SiJunit5 />,
+};
 
 const skillCategories = [
     
@@ -28,13 +90,13 @@ const skillCategories = [
     },
 
     {
-        label: "Security",
-        skills: ["JWT Authentication", "OAuth 2.0"],
-    },
-
-    {
         label: "Testing",
         skills: ["JUnit", "Postman", "Swagger"],
+    },
+    
+    {
+        label: "Security",
+        skills: ["JWT Authentication", "OAuth 2.0"],
     },
 
     {
@@ -72,11 +134,12 @@ export const SkillsSection = () => {
                             </h3>
 
                             <div className=" flex flex-wrap justify-center gap-4">
-                                {category.skills.map((skill,key) => (
+                                {category.skills.map((skill) => (
                                     <span
-                                        key={key}
-                                        className="bg-secondary text-muted-foreground text-md font-small px-3 py-1.5 rounded-lg"
+                                        key={skill}
+                                        className="bg-secondary text-muted-foreground text-md px-3 py-1.5 rounded-lg flex items-center gap-2"
                                     >
+                                        {skillIcons[skill]}
                                         {skill}
                                     </span>
                                 ))}

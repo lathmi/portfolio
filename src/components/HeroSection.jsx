@@ -21,7 +21,8 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-delay-3">
-                        I enjoy transforming ideas into meaningful software solutions and building applications that solve real-world problems.
+                        Software Engineering Undergraduate with hands-on experience developing Full-stack Web 
+                        Applications and Mobile Applications.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
@@ -38,7 +39,7 @@ export const HeroSection = () => {
 
             <div className="absolute bottom-8 left-1/2 transform-translate-x-1/2 flex flex-col items-center animate-bounce">
               <span className="text-sm text-muted-foreground mb-2 "> Scroll </span>
-              <ArrowDown classname="h-5 w-5 text-primary"/>  
+              <ArrowDown className="h-5 w-5 text-primary"/>  
 
             </div>
         </section> 
