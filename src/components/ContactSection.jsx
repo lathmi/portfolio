@@ -63,19 +63,19 @@ export const ContactSection = () => {
             className="py-24 px-4 relative bg-secondary/30 "
         > 
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"
+                <h2 className="text-3xl md:text-4xl font-cormorant scale-y-100 italic font-bold mb-4 text-center"
                 > Get In <span className="text-primary"> Touch</span>
 
                 </h2>
 
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto tracking-wide">
                     I’m currently open to internship opportunities, software development projects 
                     and professional collaborations. 
                     If you’d like to discuss an opportunity or connect, feel free to get in touch.
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
-                    <div className="p-16 space-y-6">
+                    <div className="p-1 space-y-6">
                         <h3 className="text-2xl font-semibold mb-6 text-center">  
                             Contact Information
                         </h3>
@@ -91,7 +91,7 @@ export const ContactSection = () => {
                                     <Mail  className=" h-6 w-6 text-primary"/> {""}
                                 </a>  
                                 <div>
-                                    <h4 className="text-left font-medium"> Email </h4>
+                                    <h4 className="font-cormorant scale-y-100 italic text-left font-medium"> Email </h4>
                                     <a href="mailto:Lathmiis@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                                         Lathmiis@gmail.com
                                     </a>
@@ -103,7 +103,7 @@ export const ContactSection = () => {
                                     <MapPin className=" h-6 w-6 text-primary "/> {""}
                                 </div>
                                 <div>
-                                    <h4 className="text-left font-medium"> Location </h4>
+                                    <h4 className="font-cormorant scale-y-100 italic text-left font-medium"> Location </h4>
                                     <a className="text-muted-foreground hover:text-primary transition-colors">
                                         Kelaniya, Sri Lanka.
                                     </a>
@@ -152,7 +152,7 @@ export const ContactSection = () => {
                                 
                                 <label 
                                     htmlFor="name" 
-                                    className="block text-sm font-medium mb-2"
+                                    className="block text-sm font-medium mb-2 font-cormorant scale-y-100 italic"
                                 > 
                                 Your Name
                                 </label>
@@ -172,7 +172,7 @@ export const ContactSection = () => {
                                 
                                 <label 
                                     htmlFor="email" 
-                                    className="block text-sm font-medium mb-2"
+                                    className="block text-sm font-medium mb-2 font-cormorant scale-y-100 italic"
                                 > 
                                 Email
                                 </label>
@@ -183,7 +183,7 @@ export const ContactSection = () => {
                                     name="email"
                                     required
                                     className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none 
-                                    focus:ring-2 focus:ring-2 focus:ring-primary"
+                                    focus:ring-2 focus:ring-2 focus:ring-primary "
                                     placeholder="mailto@gmail.com..."
                                     />
                             </div>
@@ -192,7 +192,7 @@ export const ContactSection = () => {
                                 
                                 <label 
                                     htmlFor="message" 
-                                    className="block text-sm font-medium mb-2"
+                                    className="block text-sm font-medium mb-2 font-cormorant scale-y-100 italic"
                                 > 
                                 Message
                                 </label>
@@ -211,7 +211,7 @@ export const ContactSection = () => {
                             <button 
                                 type="submit" 
                                 disabled={isSubmitting}
-                                className={cn("cosmic-button w-full flex items-center justify-center gap-2",
+                                className={cn("cosmic-button font-bold w-full flex items-center justify-center gap-2",
 
                                 )}
                             >

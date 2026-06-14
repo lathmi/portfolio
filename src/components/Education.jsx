@@ -41,11 +41,11 @@ export const EducationSection = () => {
         >
             <div className="container mx-auto max-w-5xl">
 
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+                <h2 className="font-cormorant scale-y-100 italic text-3xl md:text-4xl font-bold text-center mb-12">
                     Education & <span className="text-primary">Certifications</span>
                 </h2>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 gap-8 tracking-wide">
 
                     {/* Education */}
                     <div>
@@ -58,13 +58,13 @@ export const EducationSection = () => {
                             {education.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="bg-card rounded-xl p-6 border border-primary/10 hover:bg-card/40"
+                                    className="bg-card rounded-xl p-6 hover:bg-card/40"
                                 >
                                     <h4 className="font-semibold text-lg">
                                         {item.title}
                                     </h4>
 
-                                    <p className="text-muted-foreground">
+                                    <p className="font-cormorant scale-y-100 italic text-muted-foreground">
                                         {item.institution}
                                     </p>
 
@@ -99,13 +99,13 @@ export const EducationSection = () => {
                             {certifications.map((cert, index) => (
                                 <div
                                     key={index}
-                                    className="bg-card rounded-xl p-6 border border-primary/10 hover:bg-card/40"
+                                    className="bg-card rounded-xl p-6 hover:bg-card/40"
                                 >
                                     <h4 className="font-semibold text-lg">
                                         {cert.title}
                                     </h4>
 
-                                    <p className="text-muted-foreground">
+                                    <p className="text-muted-foreground font-cormorant scale-y-100 italic">
                                         {cert.institution}
                                     </p>
 

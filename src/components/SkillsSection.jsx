@@ -93,7 +93,7 @@ const skillCategories = [
         label: "Testing",
         skills: ["JUnit", "Postman", "Swagger"],
     },
-    
+
     {
         label: "Security",
         skills: ["JWT Authentication", "OAuth 2.0"],
@@ -115,29 +115,29 @@ export const SkillsSection = () => {
     
         <section 
             id="skills"
-            className="py-24 px-4 relative bg-secondary/30"
+            className="py-24 px-4 relative bg-secondary/30 "
         >
             <div className="container mx-auto max-w-5xl">
 
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                    My<span className="text-primary"> Skills</span>
+                <h2 className="font-cormorant scale-y-100 italic text-3xl md:text-4xl font-bold text-center mb-12">
+                    My<span className="text-primary "> Skills</span>
                 </h2>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
                     {skillCategories.map((category,key) => (
                         <div 
                         key={key} 
-                        className="bg-card p-4 rounded-xl shadow-xs hover-shadow"
+                        className="bg-card p-4 rounded-xl shadow-xs hover-shadow "
                         >
-                            <h3 className="text-xl font-semibold text-foreground mb-4 ">
-                                {category.label}
+                            <h3 className="text-lg text-foreground mb-4 ">
+                                <span className="font-semibold">{category.label}</span>
                             </h3>
 
-                            <div className=" flex flex-wrap justify-center gap-4">
+                            <div className=" text-sm flex flex-wrap justify-center gap-4 tracking-wide">
                                 {category.skills.map((skill) => (
                                     <span
                                         key={skill}
-                                        className="bg-secondary text-muted-foreground text-md px-3 py-1.5 rounded-lg flex items-center gap-2"
+                                        className="bg-secondary text-muted-foreground text-md px-3 py-1.5 rounded-lg flex items-center gap-2 "
                                     >
                                         {skillIcons[skill]}
                                         {skill}

@@ -1,4 +1,4 @@
-import { Briefcase } from "lucide-react";
+import { Briefcase, ScrollText } from "lucide-react";
 import { Code } from "lucide-react";
 import { User } from "lucide-react";
 
@@ -8,28 +8,34 @@ import { User } from "lucide-react";
         <section id="about" className="py-24 px-4 relative">
             
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-                    About <span className="text-primary"> Me </span>
+                <h2 className="font-cormorant scale-y-100 italic text-3xl md:text-4xl font-bold text-center mb-12">
+                    About <span className="text-primary "> Me </span>
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Full Stack Developer
+                            Passionate <span className="">Full Stack Developer</span>
                         </h3>
 
-                        <p className="text-muted-foreground">
-                          I enjoy building practical and user-focused applications to solve real-world problems.  
+                        <p className="text-muted-foreground tracking-wide">
+                          Second-year <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> Software Engineering Undergraduate </span> at Informatics Institute of Technology affiliated University of Westminster. 
+                          I'm drawn to building software that is practical, reliable, and grounded in real-world use.
+                         
+
                         </p>
 
-                        <p className="text-muted-foreground">
-                            For me, software engineering is about solving problems step by step and turning ideas into useful solutions. I enjoy building reliable backend systems, 
-                            working with DevOps tools to make deployment smoother and exploring how AI and ML can make applications smarter.
+                        <p className="text-muted-foreground tracking-wide">
+                        
+                         My flagship project <span className="text-primary font-bold">"AquaSense"</span> is a smart water management system that brought together backend engineering, 
+                          IoT integration, analytics, and deployment. The kind of project where every layer had to actually work together. 
+                          I enjoy the process of <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> turning a well-defined problem into something functional and purposeful</span>.
+                          Turning ideas into systems that are functional, purposeful, and worth building.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
 
-                            <a href="#contact" className="cosmic-button">
+                            <a href="#contact" className="cosmic-button font-semibold">
                                 {" "}
                                 Get In Touch
                             </a>
@@ -37,7 +43,7 @@ import { User } from "lucide-react";
                             <a 
                                 href="/cv/Lathmi_Wanigasekara_Public_CV.pdf" 
                                 download="Lathmi_Wanigasekara_Public_CV.pdf"
-                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                                className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 font-cormorant scale-y-100 italic">
 
                             Download CV
 
@@ -45,16 +51,16 @@ import { User } from "lucide-react";
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-6">
+                    <div className="grid grid-cols-1 gap-6 ">
 
                         <div className="bg-card gradient-border rounded-xl p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary"/>
+                                    <ScrollText className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                    <p className="text-muted-foreground">Designing clean and user-friendly digital interfaces.</p>
+                                    <p className="text-muted-foreground tracking-wide">Designing clean and user-friendly digital interfaces.</p>
                                 </div>
                             </div>
                         </div>
@@ -62,11 +68,11 @@ import { User } from "lucide-react";
                         <div className="bg-card gradient-border rounded-xl p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary"/>
+                                    <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Frontend & Backend Development</h4>
-                                    <p className="text-muted-foreground">Building responsive web and mobile apps with APIs and databases.</p>
+                                    <p className="text-muted-foreground tracking-wide">Building responsive web and mobile apps with APIs and databases.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +84,7 @@ import { User } from "lucide-react";
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Project Management</h4>
-                                    <p className="text-muted-foreground">Coordinating tasks, timelines and team collaboration.</p>
+                                    <p className="text-muted-foreground tracking-wide">Coordinating tasks, timelines and team collaboration.</p>
                                 </div>
                             </div>
                         </div>

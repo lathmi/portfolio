@@ -63,16 +63,12 @@ const projects = [
 export const ProjectsSection = () => {
     return (
     
-        <section id="projects" className="py-24 px-4 relative">
+        <section id="projects" className="py-20 px-4 relative">
 
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> 
+                <h2 className="font-cormorant scale-y-100 italic text-3xl md:text-4xl font-bold text-center mb-12"> 
                     Featured <span className="text-primary"> Projects </span> 
                 </h2>
-
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects 
-                </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
                     {projects.map((project,key) => (
@@ -99,8 +95,8 @@ export const ProjectsSection = () => {
                                 </div>
                             
 
-                                <h3 className="text-lg font-semibold mb-1"> {project.title} </h3>
-                                <p className="text-muted-foreground text-sm mb-4">
+                                <h3 className="text-lg font-cormorant font-3xl scale-y-100 italic font-semibold mb-4"> {project.title} </h3>
+                                <p className="text-muted-foreground text-sm mb-4 tracking-wide">
                                     {project.description}
                                 </p>
 
@@ -129,7 +125,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 <div className=" text-center mt-12">
-                    <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                    <a className="cosmic-button font-bold w-fit flex items-center mx-auto gap-2"
                     target="_blank"
                     href="https://github.com/lathmi">
                     Check My GitHub <ArrowRight size={16} />
