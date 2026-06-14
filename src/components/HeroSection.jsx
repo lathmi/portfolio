@@ -25,7 +25,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-delay-3">
-                        Software Engineering Undergraduate who enjoy building practical and user-focused applications to solve real-world problems.
+                        I am a Software Engineering undergraduate passionate about developing practical and user-focused applications that deliver real-world solutions.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">

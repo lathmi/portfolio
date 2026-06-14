@@ -19,8 +19,8 @@ import { User } from "lucide-react";
                         </h3>
 
                         <p className="text-muted-foreground tracking-wide">
-                          Second-year <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> Software Engineering Undergraduate </span> at Informatics Institute of Technology affiliated University of Westminster. 
-                          I'm drawn to building software that is practical, reliable, and grounded in real-world use.
+                          Second-year <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> Software Engineering Undergraduate </span> at Informatics Institute of Technology in affiliation with the University of Westminster. 
+                          I'm drawn to building softwares that are practical and reliable in real-world use.
                          
 
                         </p>
@@ -28,9 +28,8 @@ import { User } from "lucide-react";
                         <p className="text-muted-foreground tracking-wide">
                         
                          My flagship project <span className="text-primary font-bold">"AquaSense"</span> is a smart water management system that brought together backend engineering, 
-                          IoT integration, analytics, and deployment. The kind of project where every layer had to actually work together. 
-                          I enjoy the process of <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> turning a well-defined problem into something functional and purposeful</span>.
-                          Turning ideas into systems that are functional, purposeful, and worth building.
+                          IoT integration, analytics, and deployment. I enjoy the process of <span className="text-primary font-cormorant scale-y-100 italic font-bold text-lg"> turning 
+                            a well-defined problem into something functional and purposeful</span>.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
