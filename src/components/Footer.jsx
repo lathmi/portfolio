@@ -7,12 +7,12 @@ export const Footer = () => {
                 &copy; {new Date().getFullYear()} Lathmi Wanigasekara.co, All rights reserved. {" "} 
             </p>
 
-            <a 
-                href="#hero"
+            <button
+                onClick={() => document.getElementById('hero').scrollIntoView({ behavior: 'smooth' })}
                 className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
             >
-                <ArrowUp size={20}/>
-            </a>
+            <ArrowUp size={20}/>
+            </button>
 
         </footer>
 
