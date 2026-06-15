@@ -3,13 +3,18 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react"; 
 
 const navItems = [
-    {name: "Home", href: "#hero"},
-    {name: "About", href: "#about"},
-    {name: "Skills", href: "#skills"},
-    {name: "Projects", href: "#projects"},
-    {name: "Education", href: "#education"},
-    {name: "Contacts", href: "#contact"},
+    {name: "Home", href: "hero"},
+    {name: "About", href: "about"},
+    {name: "Skills", href: "skills"},
+    {name: "Projects", href: "projects"},
+    {name: "Education", href: "education"},
+    {name: "Contacts", href: "contact"},
 ];
+
+const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+};
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -30,25 +35,28 @@ export const Navbar = () => {
             isScrolled ? "py-3 bg-background/40 backdrop-blur-md shadow-s" : "py-5"
             )}
         >
-            <div className="container flex items-center justify-between  ">
-                <a 
+            <div className="container flex items-center justify-between">
+                <button 
                     className="text-lg text-primary flex items-center" 
-                    href="#hero"
+                    onClick={() => scrollToSection("hero")}
                 >
-                    <span className="font-cormorant text-xl scale-y-100 italic relative z-10 ">
+                    <span className="font-cormorant text-xl scale-y-100 italic relative z-10">
                         <span className="text-mediumglow text-foreground font-semibold"> Lathmi Wanigasekara </span> {""} 
                         <span className="font-bold">Portfolio</span>
                     </span>
-                </a>
+                </button>
 
             {/* desktop nav */}
 
-                <div className="hidden md:flex space-x-8 text-sm font-bold ">
-                    {navItems.map((item,key) => (
-
-                        <a key={key} href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                <div className="hidden md:flex space-x-8 text-sm font-bold">
+                    {navItems.map((item, key) => (
+                        <button
+                            key={key}
+                            onClick={() => scrollToSection(item.href)}
+                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                        >
                             {item.name}
-                        </a>
+                        </button>
                     ))}
                 </div>
 
@@ -58,10 +66,8 @@ export const Navbar = () => {
                 onClick={() => setIsMenuOpen((prev) => !prev)}
                 className="md:hidden p-2 text-foreground z-50"
                 aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
-
             > 
                 {isMenuOpen ? <X size={24} /> : <Menu size={24}/>}
-                
             </button>
 
                 <div className={cn(
@@ -73,16 +79,14 @@ export const Navbar = () => {
                     )}
                 >
                     <div className="flex flex-col space-y-8 text-xl">
-                        {navItems.map((item,key) => (
-
-                            <a 
-                                key={item.name} 
-                                href={item.href} 
+                        {navItems.map((item, key) => (
+                            <button
+                                key={item.name}
+                                onClick={() => { scrollToSection(item.href); setIsMenuOpen(false); }}
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.name}
-                            </a>
+                            </button>
                         ))}
                     </div>
                 </div>
