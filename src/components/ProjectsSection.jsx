@@ -14,17 +14,9 @@ const projects = [
         demoUrl: "https://aquasense-sdgp.web.app",
         githubUrl: "https://github.com/lathmi/sdgp-se24-aquasense-mobile"
     },
+
     {
         id: 2,
-        title: "To-Do List Web Application",
-        description: "Full-stack task management web app with RESTful routing, full CRUD operations, and dynamic UI rendering.",
-        image: `${base}projects/todo.jpg`,
-        tags: ["Node.js", "Express.js", "MongoDB"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/lathmi/to-do-list"
-    },
-    {
-        id: 3,
         title: "Acyclicity Checker",
         description: "Java-based directed graph algorithm using sink-elimination and iterative DFS cycle detection with three-colour marking.",
         image: `${base}projects/acyclicitychecker.png`,
@@ -34,25 +26,7 @@ const projects = [
     },
 
     {
-        id: 4,
-        title: "E-commerce Web Application",
-        description: "PHP-based e-commerce system with session-based cart management, product handling and dynamic page updates.",
-        image: `${base}projects/ecommerce.jpg`,
-        tags: ["PHP", "Session Management", "Backend"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/lathmi/e-commerce"
-    },
-    {
-        id: 5,
-        title: "Life Below Water Web Application",
-        description: "Responsive sustainability awareness web app built collaboratively in an Agile team with cross-device compatibility.",
-        image: `${base}projects/lifebelowwater.png`,
-        tags: ["HTML5", "CSS3", "JavaScript", "Agile"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/lathmi/life-below-water"
-    },
-    {
-        id: 6,
+        id: 3,
         title: "Aquasense - Landing Page",
         description: "Responsive landing page for AquaSense, a smart water management and leak detection system focused on real-time usage monitoring, leak detection, and sustainable water conservation.",
         image: `${base}projects/landingpage.png`,

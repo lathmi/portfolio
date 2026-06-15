@@ -86,7 +86,7 @@ const skillCategories = [
 
     {
         label: "DevOps",
-        skills: ["Docker", "AWS (Fundamentals)", "Linux CLI", "Bash Scripting"],
+        skills: ["Docker", "AWS", "Linux"],
     },
 
     {
