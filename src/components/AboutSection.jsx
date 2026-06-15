@@ -33,10 +33,12 @@ import { User } from "lucide-react";
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
 
-                            <a href="#contact" className="cosmic-button font-semibold">
-                                {" "}
-                                Get In Touch
-                            </a>
+                            <button
+                            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                            className="cosmic-button font-semibold"
+                            >
+                            Get In Touch
+                            </button>
 
                             <a 
                                 href={`${import.meta.env.BASE_URL}cv/Lathmi_Wanigasekara_Public_CV.pdf.pdf`}

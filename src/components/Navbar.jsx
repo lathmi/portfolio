@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react"; 
 
 const navItems = [
-    {name: "Home", href: `${import.meta.env.BASE_URL}#hero`},
-    {name: "About", href: `${import.meta.env.BASE_URL}#about`},
-    {name: "Skills", href: `${import.meta.env.BASE_URL}skills`},
-    {name: "Projects", href: `${import.meta.env.BASE_URL}#projects`},
-    {name: "Education", href: `${import.meta.env.BASE_URL}#education`},
-    {name: "Contacts", href: `${import.meta.env.BASE_URL}#contact`},
+    {name: "Home", href: "hero"},
+    {name: "About", href: "about"},
+    {name: "Skills", href: "skills"},
+    {name: "Projects", href: "projects"},
+    {name: "Education", href: "education"},
+    {name: "Contacts", href: "contact"},
 ];
 
 const scrollToSection = (id) => {
