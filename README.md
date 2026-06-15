@@ -1,16 +1,16 @@
 # Personal Portfolio Website
 
-My personal portfolio website showcasing my projects, technical skills, and experience as a Software Engineering undergraduate.
+My personal portfolio website showcasing my projects, technical skills and experience as a Software Engineering undergraduate.
 
 ## About
 
-This portfolio was built to highlight my work in software engineering, backend development, web development, and database-driven applications. It serves as a central place to explore my projects, technical skills, and professional background.
+This portfolio was built to highlight my work in software engineering, backend development, web development and database-driven applications. It serves as a central place to explore my projects, technical skills and professional background.
 
 🔗 Live Website: https://lathmi.github.io/portfolio/
 
 ## Features
 
-* Responsive design for desktop, tablet, and mobile devices
+* Responsive design for desktop, tablet and mobile devices
 * Modern and interactive user interface
 * Project showcase section
 * Technical skills overview
