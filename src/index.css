@@ -70,15 +70,15 @@
 @layer base {
   :root{
     --background:  0% 100%;
-    --foreground:  154.5 43.6% 18.4%;
+    --foreground:  60 43.6% 18.4%;
 
-    --card: 150 50% 88%;
+    --card: 50 50% 92%;
 
     
-    --primary: 1 55% 70%;
+    --primary: 40 65% 68%;
     --primary-foreground: 100 0% 0%;
 
-    --border: 20 50% 50%;
+    --border: 60 50% 50%;
   }
 
   .dark{

@@ -43,7 +43,8 @@ export const StarBackground = () => {
   };
 
    const generateMeteors = () => {
-    const numberOfMeteors = 4
+    const numberOfMeteors = 4;
+    const delays = [0, 4, 8, 12]; 
     const newMeteors = [];
 
     for (let i = 0; i < numberOfMeteors; i++) {
@@ -52,8 +53,8 @@ export const StarBackground = () => {
         size: Math.random() * 2 + 1,
         x: Math.random() * 100,
         y: Math.random() * 20,
-        delay: Math.random() * 15,
-        animationDuration: Math.random() * 3 + 3,
+        delay: delays[i],
+        animationDuration: Math.random() * 5 + 7,
       });
     }
 
@@ -86,7 +87,7 @@ export const StarBackground = () => {
             height: meteor.size * 2 + "px",
             left: meteor.x + "%",
             top: meteor.y + "%",
-            animationDelay: meteor.delay + "s",
+            animationDelay: `-${meteor.delay}s`,
             animationDuration: meteor.animationDuration + "s",
           }}
         />

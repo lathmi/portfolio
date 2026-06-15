@@ -140,7 +140,7 @@ export const ContactSection = () => {
                     </div>
 
                     <div 
-                    className="bg-card hover:bg-primary/5 p-8 rounded-lg shadow-xs"
+                    className="bg-card hover:bg-primary/20 p-8 rounded-lg shadow-xs"
                     > 
 
                         <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
