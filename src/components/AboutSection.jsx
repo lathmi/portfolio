@@ -1,7 +1,6 @@
 import { Briefcase, ScrollText } from "lucide-react";
 import { Code } from "lucide-react";
 import { User } from "lucide-react";
-
  
  export const AboutSection = () => {
     return (
@@ -40,7 +39,7 @@ import { User } from "lucide-react";
                             </a>
 
                             <a 
-                                href="{import.meta.env.BASE_URL}cv/Lathmi_Wanigasekara_Public_CV.pdf" 
+                                href="${import.meta.env.BASE_URL}cv/Lathmi_Wanigasekara_Public_CV.pdf" 
                                 download="Lathmi_Wanigasekara_Public_CV.pdf"
                                 className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 font-cormorant scale-y-100 italic">
 
