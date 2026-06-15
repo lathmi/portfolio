@@ -1,16 +1,51 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website showcasing my projects, technical skills, and experience as a Software Engineering undergraduate.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio was built to highlight my work in software engineering, backend development, web development, and database-driven applications. It serves as a central place to explore my projects, technical skills, and professional background.
 
-## React Compiler
+🔗 Live Website: https://lathmi.github.io/portfolio/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and interactive user interface
+* Project showcase section
+* Technical skills overview
+* About Me section
+* Contact and social links
+* Smooth navigation and animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+* React.js
+* Tailwind CSS
+* JavaScript
+* Vite
+* GitHub Pages
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+
+cd portfolio
+
+npm install
+
+npm run dev
+```
+
+## Deployment
+
+The website is deployed using GitHub Pages.
+
+## Contact
+
+**Lathmi Wanigasekara**
+
+* LinkedIn: https://www.linkedin.com/in/lathmi-wanigasekara/
+* Portfolio: https://lathmi.github.io/portfolio/
+* Email: [lathmiis@gmail.com](mailto:lathmiis@gmail.com)
