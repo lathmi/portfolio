@@ -40,12 +40,12 @@ import { User } from "lucide-react";
 
                             <a 
                                 href={`${import.meta.env.BASE_URL}cv/Lathmi_Wanigasekara_Public_CV.pdf`}
-                                download="Lathmi_Wanigasekara_Public_CV.pdf"
-                                className=" px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 font-cormorant scale-y-100 italic">
-
-                            Download CV
-
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 font-cormorant scale-y-100 italic">
+                                Download CV
                             </a>
+                            
                         </div>
                     </div>
 

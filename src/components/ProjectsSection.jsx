@@ -18,7 +18,7 @@ const projects = [
         id: 2,
         title: "To-Do List Web Application",
         description: "Full-stack task management web app with RESTful routing, full CRUD operations, and dynamic UI rendering.",
-        image: `${base}}projects/todo.jpg`,
+        image: `${base}projects/todo.jpg`,
         tags: ["Node.js", "Express.js", "MongoDB"],
         demoUrl: "#",
         githubUrl: "https://github.com/lathmi/to-do-list"
